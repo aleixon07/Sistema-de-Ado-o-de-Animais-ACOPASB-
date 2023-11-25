@@ -1,0 +1,32 @@
+#divBusca {
+  background-color: #ffffff;
+  border: solid 1px;
+  border-radius: 15px;
+  width: 200px; /* Reduzindo a largura do contêiner */
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+#txtBusca {
+  float: left;
+  background-color: transparent;
+  padding-left: 5px;
+  font-style: italic;
+  font-size: 18px;
+  border: none;
+  height: 32px;
+  width: 160px; /* Reduzindo a largura da barra de pesquisa */
+  color: white; /* Definindo a cor do texto como branco */
+}
+
+#btnBusca {
+  background-color: transparent;
+  color: rgb(117, 112, 112);
+  border: none;
+  cursor: pointer;
+  height: 30px; /* Aumentando a altura do botão */
+  width: 20px; /* Aumentando a largura do botão */
+  border-radius: 50%;
+  margin-left: 2px; /* Adicionando um espaço entre o texto e o botão */
+}
